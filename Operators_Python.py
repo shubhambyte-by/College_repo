@@ -1,39 +1,41 @@
 # We are learning about arithmatic operators
 
 
-# print(3**4) # this is a power funcation , where number of stars defiene the power of number
-# print(2**4) # "**" is power , the meaning of this line is 2 is multiply 4 times.
+print(3**4) # this is a power funcation , where number of stars defiene the power of number
+print(2**4) # "**" is power , the meaning of this line is 2 is multiply 4 times.
 
 
 
 
 
-# a = 'Enter a number : '
-# b = 'Enter another number : '
-# num1 = int(input(a))
-# num2 = int(input(b))
-# operation = ' Enter what you want to do !'
-# operation = input(operation)
-# def calculator(num1, num2 , operation):
-#     if operation == '+':
-#         return num1 + num2
-#     elif operation == '*':
-#         return num1 * num2
-#     elif operation == '/':
-#         return num1 / num2 
-#     elif operation == '%':
-#         return num1 % num2
-#     elif operation == '-':
-#         return num1 - num2
-#     else:
-#         return 'Invalid Operation'
-# print(num1 + num2)
-# print(calculator(num1,num2, operation))
+a = 'Enter a number : '
+b = 'Enter another number : '
+num1 = int(input(a))
+num2 = int(input(b))
+operation = ' Enter what you want to do !'
+operation = input(operation)
+def calculator(num1, num2 , operation):
+    if operation == '+':
+        print(num1 + num2)
+    elif operation == '*':
+        print( num1 * num2)
+    elif operation == '/':
+        print( num1 / num2 )
+    elif operation == '%':
+        print( num1 % num2)
+    elif operation == '-':
+        print( num1 - num2)
+    else:
+        return 'Invalid Operation'
+print(num1 + num2)
+print(calculator(num1,num2, operation))
 
 
 
 
-# Type casting --
+# Type casting -----
+
+
 a = "4"
 
 b = "5"
