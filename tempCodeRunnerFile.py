@@ -1,3 +1,4 @@
-ch = input("Enter a character: ")
-# number = ord(ch)
-# print("Number =", number)
+if (10 + 5) * 2 > 20 and 4 != 5:
+    print("True")
+else:
+    print("False")   

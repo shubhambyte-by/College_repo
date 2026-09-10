@@ -6,4 +6,4 @@ elif percentage >= 75:
 elif percentage >= 65:
     print("You are eligible for 65 percent scholarship")
 else:
-    print("You are not eligible for any scholarship")
+    print("You are not eligible for any scholarship")  
