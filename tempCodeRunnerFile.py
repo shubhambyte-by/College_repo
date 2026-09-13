@@ -1,7 +1,6 @@
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
+age = int(input("Enter age: "))
 
-if a > b:
-    print("Greater =", a)
+if age >= 18:
+    print("Eligible to vote")
 else:
-    print("Greater =", b)
+    print("Not eligible to vote")
