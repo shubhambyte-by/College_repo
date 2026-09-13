@@ -9,7 +9,3 @@ while i <= 100:
     print(i)
 
     i += 2
-    git status
-    git add .
-    git commit -m "update"
-    git push origin main
