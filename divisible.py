@@ -8,7 +8,3 @@ for i in range(i,n):
     
     i = i + 1 
 
-git status
-git add .
-git commit -m "update"
-git push origin main    
