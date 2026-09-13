@@ -1,13 +1,3 @@
-# Voting eligibility of a citizen:
-
-# age = int(input("Enter age: "))
-#
-# if age >= 18:
-#     print("Eligible to vote")
-# else:
-#     print("Not eligible to vote")
-
-
 #finding out is this year or leap year
 
 # year = int(input("Enter year: "))
