@@ -1,12 +1,3 @@
-# Break pass
-
-# for i in range(1, 101):
-#     if i == 60:
-#         break
-#     print(i)
-
-
-
 # for i in range(1, 51):
 #     if i % 5 == 0:
 #         continue
