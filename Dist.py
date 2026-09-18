@@ -19,3 +19,7 @@ for key, value in student.items():
 # del student["city"]
 # print(student["city"])
 
+git status
+git add .
+git commit -m "update"
+git push origin main
