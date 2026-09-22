@@ -13,7 +13,7 @@ else:
         i = i + 1
     print("Integer square root =", i-1)
 
-# p = int(input("ENter positive  number:  "))
+
 
 
 
