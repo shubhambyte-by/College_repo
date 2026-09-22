@@ -10,4 +10,4 @@ print("* "*8)
 j = 5
 while (j>0):
     print(j*"*  ")
-    j -= 1 
+    j -= 1 ;

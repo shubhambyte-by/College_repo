@@ -1,3 +1,9 @@
-P1 = float(input("Enter price of HP Victus: "))
-P2 = float(input("Enter price of Mac: "))
-P3 = float(input("Enter price of asus vivobook: "))
+n = int(input("Enter a positive integer: "))
+
+# if n < 0:
+#     print("Square root is not defined for a negative number.")
+# else:
+#     i = 0
+#     while i * i <= n:
+#         i = i + 1 
+#     print("Integer square root =", i - 1)
