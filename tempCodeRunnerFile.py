@@ -1,9 +1,10 @@
-n = int(input("Enter a positive integer: "))
+unicode_values = input("Enter Unicode values: ")
 
-# if n < 0:
-#     print("Square root is not defined for a negative number.")
-# else:
-#     i = 0
-#     while i * i <= n:
-#         i = i + 1 
-#     print("Integer square root =", i - 1)
+values = unicode_values.split(",")
+
+characters = ""
+
+for value in values:
+    characters = characters + chr(int(value))
+
+reverse = characters[::-1]
